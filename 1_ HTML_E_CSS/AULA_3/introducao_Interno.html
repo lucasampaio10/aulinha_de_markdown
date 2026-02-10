@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula de css - Inline.</title>
+    <!-- Interno é quando abrimos uma tag style dentro do cabeçalho -->
+    <style>
+        body{
+            background-color: black;
+            color: yellow;
+        }
+        
+        h2{
+            background-color: red;
+            color: rgb(249, 249, 249);
+            font-family:fantasy;
+            font-size:larger;
+            margin: 50px 10px 20px 70px; 
+            padding: 20px;
+            /* margem de 50px em todos os lados vao receber os 50px */
+            /* ao colocar o margin/padding ele faz sentido horario top, right, botton, left */
+            /* ao colocar apenas dois valores o primeiro é top e botton, e o outro right e left */
+            /* ao colocar apenas um margin/padding ele vai para todas as direções */
+            /* margin espaçamento externo padding interno */
+        }
+        img{
+            /* width é a largura/tamanho */
+            /* o que vai centralizar a div é o margin-left. LEMBRAR QUE É O **MARGIN** */
+            width: 110px; 
+            background-color: white;
+            border: 10px solid rgb(249, 249, 249);
+            border-radius: 50%;
+            margin-left: 45%;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>INTRODUÇÃO AO CSS</h1>
+
+    <img src="imagem_aula.png" alt="Caso a imagem falhe ou para acessibilidade">
+
+    <p>CSS (Cascading style sheets, ou folhas do estilo em cascata) é a linguagem utilizada para
+        definir o estilo visual de documentos HTML, constrolando o layout, cores, fontes, espaçamento e rersponsividade(forma na qual os componentes se comportam em multiplas telas.).
+    </p>  
+
+    <h2>Por que usar css?</h2>
+
+    <p>O Css separa o contéudo (HTML) da apresentação. permite deixar páginas mais atrativas e organizadas
+    , melhorando a experiencia do usuário. 
+    </p>
+
+    <h2>Formas de aplicar css:</h2> 
+    <p>
+        Inline: direto no elemento, usando o atributo style.
+        <p>
+        Interno: bloco style dentro do head. 
+        <p>
+        Externo: arquivo .css separado (recomendado para projetos reais).
+    </p>
+</body>
+</html>
