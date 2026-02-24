@@ -1,29 +1,21 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulário</title>
-    <!-- lembrando que o link vai servir para linkar um arquivo no outro
-     nesse exemplo estamos utilizando o rel de stylesheet(folha de estilo) para o nosso arquivo
-     style.css -->
+    <title>Tarefinha de classe </title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <!-- div é uma divisoria, quando queremos encapsular algo em uma área -->
     <div>
-        <h2>Formulário de cadastro</h2>
         <form action="">
-            <!-- alt + shift + f para identar melhor as tags -->
-            <!-- o for dentro da label faz o link da label com o campo ou seja ele manda para o id -->
-            <!-- id segue o mesmo padrão de identificador unico do elemento pode ser usado para estilos especificos -->
-            <!-- Name nome do campo que será enviado apenas para back -->
-            <label for="nome">Nome:</label> <br>
+            <h1>vamos começar</h1>
+            <label for="nome" class="label-nomes">Nome:</label> <br>
             <input type="text" id="nome" name="Nome">
             <br><br>
-            <label for="sobrenome">Sobrenome:</label> <br>
+            <label for="sobrenome" class="label-nomes" >Sobrenome:</label> <br>
             <input type="text" id="sobrenome" name="sobrenome">
             <br><br>
             <label for="cpf">CPF:</label> <br>
@@ -45,6 +37,7 @@
             <br><br>
             <label for="senha">senha:</label> <br>
             <input type="password" id="senha" name="senha">
+            <br>
             <br>
             <button type="submit">Cadastrar</button>
         </form>
