@@ -19,7 +19,7 @@ body {
 .input_vermelho{
     width: 90px;
     height: 90px;
-    background-color: red;
+    background-color: rgb(230, 0, 0);
     margin: 30px;
     border-radius: 50%;
     margin-left: 30%;
@@ -30,7 +30,6 @@ body {
 .input_amarelo {
     width: 90px;
     height: 90px;
-    outline: 2px solid rgb(217, 255, 1);
     background-color: yellow;
     margin: 30px;
     border-radius: 50%;
@@ -41,9 +40,22 @@ body {
 .input_verde {
     width: 90px;
     height: 90px;
-    background-color: rgb(0, 186, 0);
+    background-color: rgb(0, 120, 0); 
     margin: 30px;
     border-radius: 50%;
     margin-left: 30%;
     padding: 10px;
+}
+
+.input_vermelho:hover {
+    background-color: rgb(255, 17, 0);
+    transform: scale(1.1); 
+}
+.input_amarelo:hover {
+    background-color: rgb(234, 255, 0);
+    transform: scale(1.1); 
+}
+.input_verde:hover {
+    background-color: rgb(0, 186, 0);
+    transform: scale(1.1); 
 }
